@@ -17,3 +17,16 @@ public:
         cout << "Tanggal Produksi : " << tanggalProduksi << endl;
     }
 };
+
+int main()
+{
+    Barang Elek;
+    Elek.nama = "Televisi";
+    Elek.jumlah = 35;
+    Elek.kategori = "Elektronik";
+    Elek.tanggalProduksi = "2025-06-20";
+    Elek.printData();
+    cout << endl;
+
+   
+}
